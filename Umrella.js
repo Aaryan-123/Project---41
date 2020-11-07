@@ -9,7 +9,6 @@ class Umbrella {
         World.add(world,this.body);
         
     } display() {
-        //image(this.image,x,y);
         var pos = this.umbrella.position;
         imageMode(CENTER);
         image(this.image,pos.x,pos.y+70,300,300);
