@@ -5,7 +5,8 @@ class Umbrella {
         } 
         this.image = loadImage("WalkingFrame/walking_1.png");
         this.body = Bodies.circle(x,y,50,options);
-        this.radius = 50; World.add(this.body);
+        this.radius = 50;
+        World.add(this.body);
         
     } display() {
         //image(this.image,x,y);
